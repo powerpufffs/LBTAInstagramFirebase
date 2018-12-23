@@ -11,7 +11,6 @@
 		7FB154C6216CE79C00876705 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB154C5216CE79C00876705 /* ViewController.swift */; };
 		7FB154C9216CE79C00876705 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FB154C7216CE79C00876705 /* Main.storyboard */; };
 		7FB154CB216CE79F00876705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FB154CA216CE79F00876705 /* Assets.xcassets */; };
-		7FB154CE216CE79F00876705 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FB154CC216CE79F00876705 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,14 +53,38 @@
 		7FB154C2216CE79C00876705 /* instagramFirebase */ = {
 			isa = PBXGroup;
 			children = (
-				7FB154C3216CE79C00876705 /* AppDelegate.swift */,
-				7FB154C5216CE79C00876705 /* ViewController.swift */,
+				7FB154D6216CE7DD00876705 /* View */,
+				7FB154D7216CE7E100876705 /* Controller */,
+				7FB154D5216CE7D600876705 /* Model */,
 				7FB154C7216CE79C00876705 /* Main.storyboard */,
 				7FB154CA216CE79F00876705 /* Assets.xcassets */,
-				7FB154CC216CE79F00876705 /* LaunchScreen.storyboard */,
 				7FB154CF216CE79F00876705 /* Info.plist */,
 			);
 			path = instagramFirebase;
+			sourceTree = "<group>";
+		};
+		7FB154D5216CE7D600876705 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7FB154D6216CE7DD00876705 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7FB154CC216CE79F00876705 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7FB154D7216CE7E100876705 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7FB154C5216CE79C00876705 /* ViewController.swift */,
+				7FB154C3216CE79C00876705 /* AppDelegate.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +145,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FB154CE216CE79F00876705 /* LaunchScreen.storyboard in Resources */,
 				7FB154CB216CE79F00876705 /* Assets.xcassets in Resources */,
 				7FB154C9216CE79C00876705 /* Main.storyboard in Resources */,
 			);
